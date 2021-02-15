@@ -1,0 +1,60 @@
+<DOCTYPE! html>
+<html>
+     <head>
+	 <div align="left"><img src="bolivariana.png" alt="Imagen" width="220" height="200" /></div> 
+	 <title>Formulario Inscripcion Universidad Bolivariana</title>
+	 </head>
+	    <body>
+		  <p><div align="center"><h1>Inscripcion Universidad Bolivariana</h1>
+		  <br> <br>
+		  <p><h2> Información del alumno </h2> </p>
+		  
+		  <form action="../../form-result.php" method="post" target="_blank">
+
+               <p><label><strong>Nombres: </strong><input type="text" name="nombres"placeholder="Ej.: Jorge Eliecer" ></p></label>
+			   
+  			   <p><label><strong>Apellidos:</strong> <input type="text" name="apellidos" placeholder="Ej.: Cardona"></p></label>
+			   
+			   <p><label><strong>Direccion:</strong> <input type="address" name="direccion"placeholder="Ej.: Calle111g#6442" ></p></label>
+			   
+			   <p><label><strong>Telefono:</strong> <input type="number" name="telefono"placeholder="Ej.: 31051007173"></p></label>
+			   
+			   <p><label><strong>Fecha de nacimiento:</strong> <input type="date" name="fecha"></p></label>
+			   
+			   <p><label><strong>Genero:</strong> <input type="radio" name="genero" value="Femenino" required> Femenino</label>
+			   <label> <input type="radio" name="genero" value="Masculino"required> Masculino</label></p>
+			   
+			   <p><label><strong>Correo:</strong> <input type="email" name="fecha"placeholder="Ej.: Jorgecardona09@correo.edu.co" ></p></label>
+
+			   
+			   <p><label><strong>¿Es usted becado?:</strong> <input type="checkbox" name="cb-si" value="si" > SI</label>
+			   
+			   <label> <input type="checkbox" name="cb-no" value="no"> NO</label></p>
+			   
+			   <p><label><strong>Color distintivo:</strong> <input type="color" name="colordistintivo"></p></label>
+			   
+			   <p><label><strong>Acerca de mi:</strong> <br></br>
+			   <textarea name="descripcion" cols="40" rows="5"></textarea></p></label>
+			   
+			    <p><label><strong>Seleccione una carrera:</strong>
+				
+				<select name="carrera">
+
+                <option>Medicina</option>
+
+                <option>Ingenieria en software</option>
+
+                <option>Derecho</option>
+
+                <option>Astronomia</option>
+
+                <option>Nanotecnologia</option>
+				
+				</select> </p>
+
+                <p><input  style="color:blue" type="submit" value="Enviar datos"> 
+				<input style="color:blue" type="reset" value="Restaurar formulario"> </p></div>
+
+</form>
+	    </body>
+</html>
